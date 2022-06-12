@@ -1,0 +1,139 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: coral;
+  margin-bottom: 125px;
+  height: 5px;
+  position: relative;
+  bottom: 10px;
+  right: 10px;
+  width: 220vh;
+}
+
+.top-section {
+  padding: 0px 0px 0px 15%;
+  background-color: lightgray;
+  height: 250px;
+  position: relative;
+  bottom: 15px;
+  padding-top: 25px;
+}
+
+#search-box {
+  width: 18%;
+  height: 40px;
+  border-style: none;
+  position: relative;
+  bottom: 15px;
+  border-bottom: 2px solid black;
+  border-radius: 5px;
+  font-size: 28px;
+}
+
+.sections {
+  width: 18%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  bottom: 10px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.section {
+  background-color: purple;
+  color: white;
+  border-radius: 3px;
+  padding: 2px 3px;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+.section:hover {
+  background-color: orange;
+}
+
+#store-name {
+  color: purple;
+}
+
+.product-item {
+  border: 4px solid black;
+  position: absolute;
+  top: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 300px;
+  width: 270px;
+  margin: 0px 0px 150px 250px;
+  top: 250px;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.product-info {
+  background-color: #d3c1c1;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  bottom: 40px;
+  width: 263px;
+  height: 102px;
+  top: 192px;
+}
+
+.price-2 {
+  color: green;
+  font-weight: bolder;
+}
+
+.price-1 {
+  color: red;
+  font-weight: bolder;
+}
+
+.product-image {
+  position: relative;
+  border: 0px solid black;
+}
+
+.add-to-cart {
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  width: 130px;
+  position: relative;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-top: 230px;
+  right: 70px;
+  background-color: #ff8800;
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+}
+
+.add-to-cart:hover {
+  background-color: purple;
+}
+/*# sourceMappingURL=style.css.map */
